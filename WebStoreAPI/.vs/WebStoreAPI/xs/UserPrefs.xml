@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{EEEBCB84-FF62-491A-A615-0A61EEBB2F3C}|Default">
+  <MonoDevelop.Ide.ItemProperties.WebStoreAPI PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WebStoreAPI/Controllers/ValuesController.cs">
+    <Files>
+      <File FileName="WebStoreAPI/Controllers/ValuesController.cs" Line="66" Column="9" />
+      <File FileName="WebStoreAPI/Startup.cs" Line="59" Column="39" />
+      <File FileName="WebStoreAPI/appsettings.Development.json" />
+      <File FileName="WebStoreAPI/appsettings.json" />
+      <File FileName="WebStoreAPI/Properties/launchSettings.json" />
+      <File FileName="WebStoreAPI/Models/Product.cs" Line="13" Column="22" />
+      <File FileName="WebStoreAPI/Models/Customer.cs" Line="15" Column="28" />
+      <File FileName="WebStoreAPI/Models/Order.cs" Line="1" Column="1" />
+      <File FileName="WebStoreAPI/Models/Address.cs" Line="15" Column="2" />
+      <File FileName="WebStoreAPI/DB/WebShopDB.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WebStoreAPI" expanded="True">
+            <Node name="WebStoreAPI" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
