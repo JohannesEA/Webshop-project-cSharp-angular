@@ -114,3 +114,4 @@
 /Users/johanneserdahlandresen/Desktop/School/Webapplikasjoner/WebStore/WebStoreAPI/WebStoreAPI/obj/Debug/netcoreapp3.1/WebStoreAPI.dll
 /Users/johanneserdahlandresen/Desktop/School/Webapplikasjoner/WebStore/WebStoreAPI/WebStoreAPI/obj/Debug/netcoreapp3.1/WebStoreAPI.pdb
 /Users/johanneserdahlandresen/Desktop/School/Webapplikasjoner/WebStore/WebStoreAPI/WebStoreAPI/obj/Debug/netcoreapp3.1/WebStoreAPI.genruntimeconfig.cache
+/Users/johanneserdahlandresen/Desktop/School/Webapplikasjoner/WebStore/WebStoreAPI/WebStoreAPI/obj/Debug/netcoreapp3.1/WebStoreAPI.csproj.AssemblyReference.cache

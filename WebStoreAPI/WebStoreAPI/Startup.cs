@@ -32,7 +32,17 @@ namespace WebStoreAPI
             //Connect to database
             services.AddDbContext<WebShopDB>(options => options.UseSqlite("Data source = Webshop.db"));
             //Conenct with frontend
-            services.AddCors();
+            //services.AddCors();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", p =>
+                {
+                    p.AllowAnyOrigin()
+                    .AllowAnyHeader()
+                    .AllowAnyMethod();
+                });
+            });
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -44,7 +54,11 @@ namespace WebStoreAPI
                 app.UseDeveloperExceptionPage();
             }
 
-
+            //Connect to frontend with url = http://localhost:4200/
+            //app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            //app.UseCors(options => options.WithOrigins("http://localhost:4200/").AllowAnyMethod().AllowAnyHeader());
+            app.UseCors("AllowAll");
+            //app.UseMvc();
             app.UseRouting();
 
             //Form the use of html files
@@ -52,9 +66,7 @@ namespace WebStoreAPI
 
             app.UseAuthorization();
 
-            //Connect to frontend with url = http://localhost:4200/
-            //options.WithOrigins("http://localhost:4200/").AllowAnyMethod().AllowAnyHeader()
-            app.UseCors(options => options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+           
 
             app.UseHttpsRedirection();
 
